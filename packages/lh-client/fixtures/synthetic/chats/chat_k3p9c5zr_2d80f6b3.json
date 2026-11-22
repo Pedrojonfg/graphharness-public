@@ -1,0 +1,229 @@
+{
+  "id": "chat_k3p9c5zr_2d80f6b3",
+  "title": "Practice: ideal gas processes",
+  "createdAt": "2026-09-22T16:09:30.000Z",
+  "updatedAt": "2026-09-22T16:21:15.000Z",
+  "kind": "practice",
+  "messages": [
+    {
+      "id": "msg_pr_000",
+      "role": "custom",
+      "customType": "graph-context",
+      "content": "Selected propositions for this practice session: 2.",
+      "details": {
+        "propositions": [
+          {
+            "id": "n_b16fd5621355",
+            "name": "Isothermal process"
+          },
+          {
+            "id": "n_c95d76921e15",
+            "name": "Adiabatic process"
+          }
+        ]
+      },
+      "timestamp": 1790093400000
+    },
+    {
+      "id": "msg_pr_001",
+      "role": "user",
+      "content": "Give me practice on ideal gas processes.",
+      "timestamp": 1790093445000
+    },
+    {
+      "id": "msg_pr_002",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "Here is the first problem."
+        },
+        {
+          "type": "toolCall",
+          "id": "call_pr_problem1",
+          "name": "problem",
+          "arguments": {
+            "statement": "An ideal gas expands isothermally. State what happens to its internal energy and where the absorbed heat goes.",
+            "mode": "recall",
+            "target": [
+              "n_b16fd5621355"
+            ],
+            "modelSolution": "ΔU = 0 because U depends only on T; all the absorbed heat becomes work (Q = W)."
+          }
+        }
+      ],
+      "timestamp": 1790093490000
+    },
+    {
+      "id": "msg_pr_003",
+      "role": "toolResult",
+      "toolCallId": "call_pr_problem1",
+      "toolName": "problem",
+      "content": [
+        {
+          "type": "text",
+          "text": "Problem presented to the student."
+        }
+      ],
+      "details": null,
+      "isError": false,
+      "timestamp": 1790093535000
+    },
+    {
+      "id": "msg_pr_004",
+      "role": "custom",
+      "customType": "practice-thinking",
+      "content": "Temperature is constant, so U should not change.",
+      "details": {
+        "problemCallId": "call_pr_problem1"
+      },
+      "timestamp": 1790093580000
+    },
+    {
+      "id": "msg_pr_005",
+      "role": "user",
+      "content": "Internal energy stays constant because T is constant, so all the heat is turned into work.",
+      "timestamp": 1790093625000
+    },
+    {
+      "id": "msg_pr_006",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "toolCall",
+          "id": "call_pr_conclude1",
+          "name": "conclude",
+          "arguments": {
+            "outcome": "solved",
+            "verdict": "Correct on both counts: internal energy is unchanged and the absorbed heat equals the work done.",
+            "rung": null,
+            "missClass": null,
+            "retest": false
+          }
+        }
+      ],
+      "timestamp": 1790093670000
+    },
+    {
+      "id": "msg_pr_007",
+      "role": "toolResult",
+      "toolCallId": "call_pr_conclude1",
+      "toolName": "conclude",
+      "content": [
+        {
+          "type": "text",
+          "text": "Outcome recorded."
+        }
+      ],
+      "details": null,
+      "isError": false,
+      "timestamp": 1790093715000
+    },
+    {
+      "id": "msg_pr_008",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "Well done. Next problem coming up."
+        }
+      ],
+      "timestamp": 1790093760000
+    },
+    {
+      "id": "msg_pr_009",
+      "role": "user",
+      "content": "Next.",
+      "timestamp": 1790093805000
+    },
+    {
+      "id": "msg_pr_010",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "toolCall",
+          "id": "call_pr_problem2",
+          "name": "problem",
+          "arguments": {
+            "statement": "One mole of ideal gas is compressed adiabatically. Explain why its temperature rises.",
+            "mode": "recall",
+            "target": [
+              "n_c95d76921e15"
+            ],
+            "modelSolution": "Q = 0, so ΔU = −W; the work done on the gas raises U and therefore T."
+          }
+        }
+      ],
+      "timestamp": 1790093850000
+    },
+    {
+      "id": "msg_pr_011",
+      "role": "toolResult",
+      "toolCallId": "call_pr_problem2",
+      "toolName": "problem",
+      "content": [
+        {
+          "type": "text",
+          "text": "Problem presented to the student."
+        }
+      ],
+      "details": null,
+      "isError": false,
+      "timestamp": 1790093895000
+    },
+    {
+      "id": "msg_pr_012",
+      "role": "custom",
+      "customType": "problem-dismissed",
+      "content": "The student dismissed this problem.",
+      "details": {
+        "problemCallId": "call_pr_problem2"
+      },
+      "timestamp": 1790093940000
+    },
+    {
+      "id": "msg_pr_013",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "toolCall",
+          "id": "call_conc_call_pr_problem2",
+          "name": "conclude",
+          "arguments": {
+            "outcome": "dismissed"
+          }
+        }
+      ],
+      "timestamp": 1790093985000
+    },
+    {
+      "id": "msg_pr_014",
+      "role": "toolResult",
+      "toolCallId": "call_conc_call_pr_problem2",
+      "toolName": "conclude",
+      "content": [
+        {
+          "type": "text",
+          "text": "Problem dismissed."
+        }
+      ],
+      "details": {
+        "outcome": "dismissed",
+        "problemCallId": "call_pr_problem2"
+      },
+      "isError": false,
+      "timestamp": 1790094030000
+    },
+    {
+      "id": "msg_pr_015",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "No problem, we can come back to that one later."
+        }
+      ],
+      "timestamp": 1790094075000
+    }
+  ]
+}

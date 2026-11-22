@@ -1,0 +1,24 @@
+{
+  "name": "@graphharness/worker",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -p .",
+    "start": "node src/index.ts"
+  },
+  "dependencies": {
+    "@graphharness/core": "workspace:*",
+    "@graphharness/contracts": "workspace:*",
+    "@graphharness/db": "workspace:*",
+    "@graphharness/lh-client": "workspace:*",
+    "@graphharness/llm": "workspace:*",
+    "@graphharness/latex": "workspace:*",
+    "zod": "^3.25.76",
+    "@graphharness/hub": "workspace:*"
+  }
+}

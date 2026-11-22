@@ -1,0 +1,25 @@
+: ping
+
+event: chats-changed
+data: {}
+
+event: turn-started
+data: {"chatId":"chat_k3p9c5zr_2d80f6b3"}
+
+event: record-changed
+data: {"chatId":"chat_k3p9c5zr_2d80f6b3"}
+
+: ping
+
+event: turn-settled
+data: {"chatId":"chat_k3p9c5zr_2d80f6b3"}
+
+event: compaction-changed
+data: {"chatId":"chat_k3p8w2ud_7e1b44a0","running":true}
+
+event: jobs-changed
+data: {}
+
+event: sources-changed
+data: {}
+

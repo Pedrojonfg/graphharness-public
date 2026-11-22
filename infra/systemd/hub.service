@@ -1,0 +1,25 @@
+# Hub: REST API + MCP + PWA on 127.0.0.1:4100.
+[Unit]
+Description=Hub (API, MCP, PWA)
+After=network-online.target lh.service
+Wants=network-online.target
+
+[Service]
+User=hub
+Group=hub
+WorkingDirectory=/opt/graphharness
+EnvironmentFile=/etc/graphharness/hub.env
+Environment=NODE_ENV=production
+# HOME of the hub user: where the `claude` CLI session lives (the Hub's LLM provider).
+Environment=HOME=/home/hub
+ExecStart=/usr/bin/node apps/hub/src/index.ts
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=yes
+ProtectSystem=strict
+# /var/lib/hub: database, reports and backup repo. /home/hub: claude session.
+ReadWritePaths=/var/lib/hub /home/hub
+PrivateTmp=yes
+
+[Install]
+WantedBy=multi-user.target

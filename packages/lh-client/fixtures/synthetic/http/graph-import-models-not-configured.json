@@ -1,0 +1,15 @@
+{
+  "results": [
+    {
+      "requestIndex": 0,
+      "outcome": "failed",
+      "filePath": "thermodynamics/ch3-first-law.md",
+      "ok": false,
+      "error": "No models are configured yet. Set up the required models first.",
+      "code": "models_not_configured",
+      "missing": [
+        "cheap"
+      ]
+    }
+  ]
+}

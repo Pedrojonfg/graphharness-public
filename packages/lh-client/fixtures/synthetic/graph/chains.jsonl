@@ -1,0 +1,10 @@
+{"id":"arg_7690997880d0","premises":["n_89577c5c8ac3","n_8148e4222355"],"conclusion":"n_b16fd5621355","provenance":[{"chatId":"src_9e29eb12f09c","messageId":""}],"createdAt":"2026-09-20T19:00:00.000Z"}
+{"id":"arg_b3a49638e224","premises":["n_89577c5c8ac3","n_0e034dc2a929"],"conclusion":"n_c95d76921e15","provenance":[{"chatId":"src_0c13c41466f1","messageId":""}],"createdAt":"2026-09-20T19:01:00.000Z"}
+{"id":"arg_85ae7e24041c","premises":["n_89577c5c8ac3","n_da8b044acdf0"],"conclusion":"n_1995a395bb8f","provenance":[{"chatId":"src_9e29eb12f09c","messageId":""}],"createdAt":"2026-09-20T19:02:00.000Z"}
+{"id":"arg_f85fde65b870","premises":["n_1c9435a3bc50","n_92895e233079","n_8148e4222355"],"conclusion":"n_6b95b1320aa7","provenance":[{"chatId":"src_0c13c41466f1","messageId":""}],"createdAt":"2026-09-20T19:03:00.000Z"}
+{"id":"arg_7c41fcf3e431","premises":["n_8604a76cb7c1","n_30f493583f6e","n_e725abacad3c","n_0fe94d9df002"],"conclusion":"n_ae06a05b0b24","provenance":[{"chatId":"src_9e29eb12f09c","messageId":""}],"createdAt":"2026-09-20T19:04:00.000Z"}
+{"id":"arg_969c5ecbdd69","premises":["n_88f3e68d52a4","n_8604a76cb7c1"],"conclusion":"n_96360c5089e8","provenance":[{"chatId":"src_0c13c41466f1","messageId":""}],"createdAt":"2026-09-20T19:05:00.000Z"}
+{"id":"arg_ab1882cd05e6","premises":["n_1ed12cd3697d","n_88f3e68d52a4","n_17140710747d"],"conclusion":"n_d3a9c8c87c97","provenance":[{"chatId":"src_9e29eb12f09c","messageId":""}],"createdAt":"2026-09-20T19:06:00.000Z"}
+{"id":"arg_513f0e689961","premises":["n_087cfcb13fb6","n_92895e233079"],"conclusion":"n_2ecb5a3037b6","provenance":[{"chatId":"src_0c13c41466f1","messageId":""}],"createdAt":"2026-09-20T19:07:00.000Z"}
+{"id":"arg_0e7521b767f8","premises":["n_89577c5c8ac3","n_36c63f1f782a","n_8604a76cb7c1"],"conclusion":"n_30f493583f6e","provenance":[{"chatId":"src_9e29eb12f09c","messageId":""}],"createdAt":"2026-09-20T19:08:00.000Z"}
+{"id":"arg_064ba6083a8d","premises":["n_0e034dc2a929","n_0fe94d9df002","n_88f3e68d52a4"],"conclusion":"n_087cfcb13fb6","provenance":[{"chatId":"src_0c13c41466f1","messageId":""}],"createdAt":"2026-09-20T19:09:00.000Z"}

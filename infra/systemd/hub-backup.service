@@ -1,0 +1,17 @@
+# Backup: started by the timer; session close uses the same script.
+[Unit]
+Description=Hub backup (git)
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=hub
+Group=hub
+WorkingDirectory=/opt/graphharness
+EnvironmentFile=/etc/graphharness/hub.env
+Environment=HOME=/home/hub
+ExecStart=/opt/graphharness/infra/scripts/backup.sh timer
+NoNewPrivileges=yes
+ProtectSystem=strict
+ReadWritePaths=/var/lib/hub /home/hub
+PrivateTmp=yes

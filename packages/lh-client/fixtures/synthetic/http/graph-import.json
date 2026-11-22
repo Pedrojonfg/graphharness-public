@@ -1,0 +1,26 @@
+{
+  "results": [
+    {
+      "requestIndex": 0,
+      "outcome": "completed",
+      "filePath": "thermodynamics/ch3-first-law.md",
+      "ok": true,
+      "stats": {
+        "nodes": 12,
+        "chains": 7
+      }
+    },
+    {
+      "requestIndex": 1,
+      "outcome": "completed",
+      "filePath": "thermodynamics/problem-set-1.pdf",
+      "ok": true,
+      "stats": {
+        "nodes": 4,
+        "chains": 2,
+        "droppedChains": 1
+      },
+      "notice": "Two pages contain only scanned images and were skipped; text recognition is not available."
+    }
+  ]
+}

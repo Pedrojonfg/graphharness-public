@@ -1,0 +1,24 @@
+{
+  "chats": [
+    {
+      "id": "chat_k3p9c5zr_2d80f6b3",
+      "title": "Practice: ideal gas processes",
+      "kind": "practice",
+      "createdAt": "2026-09-22T16:09:30.000Z",
+      "updatedAt": "2026-09-22T16:21:15.000Z",
+      "messageCount": 16,
+      "busy": false,
+      "compacting": false
+    },
+    {
+      "id": "chat_k3p8w2ud_7e1b44a0",
+      "title": "Thermodynamics: first law and heat engines",
+      "kind": "teach",
+      "createdAt": "2026-09-21T14:01:30.000Z",
+      "updatedAt": "2026-09-21T14:35:45.000Z",
+      "messageCount": 46,
+      "busy": false,
+      "compacting": false
+    }
+  ]
+}

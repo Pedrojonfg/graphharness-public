@@ -1,0 +1,15 @@
+# rsync exclusions for the LH_DATA_DIR backup. Credentials are never uploaded.
+# Real LH names: auth.json (LH_AUTH_FILE), {chatgpt,github-copilot,xai}-credentials.json
+# (web-subscriptions.ts), debug/ (PATHS.debug), jobs/*.json (store/jobs.ts).
+auth*.json
+*.key
+*.pem
+.env*
+*token*
+*credential*
+*secret*
+# Debug captures (data/debug/provider-events/*.jsonl)
+debug/
+# rsync does not filter by content, so all of jobs/ is excluded (transient queues, regenerable)
+jobs/
+*.tmp

@@ -1,0 +1,8 @@
+% family: tree
+% libraries: positioning
+\node (r) {Root};
+\node[below left=1.1cm and 0.9cm of r] (lch) {Left child};
+\node[below right=1.1cm and 0.9cm of r] (rch) {Right child};
+\node[below left=0.9cm and 0.6cm of lch] (n1) {Leaf};
+\node[below right=0.9cm and 0.6cm of rch] (n2) {Leaf};
+\draw (r) -- (lch) (r) -- (rch) (lch) -- (n1) (rch) -- (n2);

@@ -1,0 +1,13 @@
+% family: geometry
+% libraries: calc
+\coordinate (A) at (0,0);
+\coordinate (B) at (3.2,0);
+\coordinate (C) at (0,2.4);
+\draw[thick] (A) -- (B) -- (C) -- cycle;
+\draw (0,0) rectangle (0.35,0.35);
+\node[below left] at (A) {$A$};
+\node[below right] at (B) {$B$};
+\node[above left] at (C) {$C$};
+\node[below] at ($(A)!0.5!(B)$) {leg $a$};
+\node[left] at ($(A)!0.5!(C)$) {leg $b$};
+\node[above right] at ($(B)!0.35!(C)$) {hypotenuse $c$};

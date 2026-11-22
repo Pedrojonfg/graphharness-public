@@ -1,0 +1,10 @@
+[Unit]
+Description=Daily Hub backup
+
+[Timer]
+OnCalendar=*-*-* 03:30:00 Europe/Madrid
+Persistent=true
+Unit=hub-backup.service
+
+[Install]
+WantedBy=timers.target

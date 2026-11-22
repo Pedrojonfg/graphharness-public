@@ -1,0 +1,17 @@
+[project]
+name = "graphharness-eval"
+version = "0.0.0"
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = [
+  "antlr4-python3-runtime==4.11.*",
+  "fastapi>=0.115.0",
+  "sympy>=1.14.0",
+  "uvicorn[standard]>=0.34.0",
+]
+
+[project.optional-dependencies]
+dev = ["httpx>=0.28.0", "pytest>=8.3.0"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

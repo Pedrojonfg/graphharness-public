@@ -1,0 +1,22 @@
+# eval (FastAPI): grades and generates instances. No network except loopback.
+[Unit]
+Description=Hub eval (FastAPI)
+After=network.target
+
+[Service]
+User=hub
+Group=hub
+WorkingDirectory=/opt/graphharness/apps/eval
+ExecStart=/usr/local/bin/uv run uvicorn app.main:app --host 127.0.0.1 --port 8001
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=yes
+ProtectSystem=strict
+# uv needs its cache and the project's venv.
+ReadWritePaths=/opt/graphharness/apps/eval /home/hub/.cache
+PrivateTmp=yes
+IPAddressDeny=any
+IPAddressAllow=localhost
+
+[Install]
+WantedBy=multi-user.target

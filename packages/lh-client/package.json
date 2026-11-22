@@ -1,0 +1,17 @@
+{
+  "name": "@graphharness/lh-client",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -p .",
+    "test:contract": "cd ../.. && LH_CONTRACT=1 vitest run packages/lh-client/src/contract.test.ts"
+  },
+  "dependencies": {
+    "zod": "^3.25.76"
+  }
+}

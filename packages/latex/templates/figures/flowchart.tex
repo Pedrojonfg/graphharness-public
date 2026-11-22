@@ -1,0 +1,6 @@
+% family: flowchart
+% libraries: arrows.meta, positioning, shapes.geometric
+\node[draw, rounded corners, minimum width=2.2cm, align=center] (in) {Input};
+\node[draw, rounded corners, minimum width=2.2cm, below=1.1cm of in, align=center] (proc) {Process};
+\node[draw, rounded corners, minimum width=2.2cm, below=1.1cm of proc, align=center] (out) {Output};
+\draw[-{Stealth}] (in) -- (proc) (proc) -- (out);

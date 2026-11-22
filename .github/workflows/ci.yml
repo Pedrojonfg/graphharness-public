@@ -1,0 +1,41 @@
+name: CI
+# Checks only. There is no automatic deployment: the VPS is not exposed to the internet (Tailscale only),
+# so it is deployed by hand with infra/scripts/update.sh (see docs/DEPLOY.md).
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  node:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: System packages (pdflatex, TikZ, sqlite3, rsync)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends texlive-latex-base texlive-latex-recommended texlive-latex-extra texlive-pictures lmodern sqlite3 rsync
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: pnpm (packageManager version)
+        run: corepack enable
+      - run: pnpm install --frozen-lockfile
+      # The hub/worker tests start the REAL eval (startEval → uv run uvicorn): uv and its deps, ready beforehand.
+      - uses: astral-sh/setup-uv@v5
+      - name: eval dependencies
+        run: uv sync --extra dev
+        working-directory: apps/eval
+      - run: pnpm typecheck
+      - run: npx vitest run
+
+  eval:
+    runs-on: ubuntu-24.04
+    defaults:
+      run:
+        working-directory: apps/eval
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv run --extra dev pytest -q

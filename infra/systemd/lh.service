@@ -1,0 +1,30 @@
+# LearnHarness (fork). Loopback only: exposed solely through `tailscale serve`.
+[Unit]
+Description=LearnHarness (LH)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=lh
+Group=lh
+WorkingDirectory=/opt/lh
+Environment=NODE_ENV=production
+Environment=LH_DATA_DIR=/var/lib/lh/data
+Environment=LH_AUTH_FILE=/var/lib/lh/auth.json
+Environment=PORT=3000
+# Interactive demos: LH looks for Chrome in fixed paths and in ~/.cache/ms-playwright. If yours is
+# somewhere else, set CHROME_PATH with `systemctl edit lh` (see docs/DEPLOY.md §6). Without a browser there are no demos.
+Environment=LH_HUB_URL=http://127.0.0.1:4100
+# `next start` ignores HOSTNAME (only the standalone server.js reads it): without -H it would listen on all
+# interfaces and LH's API has no authentication. -H/-p are the ones that count.
+ExecStart=/usr/bin/npm run start -- -H 127.0.0.1 -p 3000
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=yes
+ProtectSystem=strict
+# /var/lib/lh: data and credentials. /home/lh: materials and the `claude` session (its HOME).
+ReadWritePaths=/var/lib/lh /home/lh
+PrivateTmp=yes
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,889 @@
+{
+  "nodes": [
+    {
+      "id": "n_b16fd5621355",
+      "kind": "proposition",
+      "label": "Isothermal process"
+    },
+    {
+      "id": "n_c95d76921e15",
+      "kind": "proposition",
+      "label": "Adiabatic process"
+    },
+    {
+      "id": "n_89577c5c8ac3",
+      "kind": "proposition",
+      "label": "First law of thermodynamics"
+    },
+    {
+      "id": "n_8148e4222355",
+      "kind": "proposition",
+      "label": "Internal energy of an ideal gas"
+    },
+    {
+      "id": "n_36c63f1f782a",
+      "kind": "proposition",
+      "label": "State function"
+    },
+    {
+      "id": "n_0e034dc2a929",
+      "kind": "proposition",
+      "label": "Heat"
+    },
+    {
+      "id": "n_da8b044acdf0",
+      "kind": "proposition",
+      "label": "Work done by an expanding gas"
+    },
+    {
+      "id": "n_ee9b991aa35a",
+      "kind": "proposition",
+      "label": "Isobaric process"
+    },
+    {
+      "id": "n_1995a395bb8f",
+      "kind": "proposition",
+      "label": "Isochoric process"
+    },
+    {
+      "id": "n_1c9435a3bc50",
+      "kind": "proposition",
+      "label": "Molar heat capacity at constant volume"
+    },
+    {
+      "id": "n_6b95b1320aa7",
+      "kind": "proposition",
+      "label": "Mayer's relation"
+    },
+    {
+      "id": "n_92895e233079",
+      "kind": "proposition",
+      "label": "Ideal gas law"
+    },
+    {
+      "id": "n_8604a76cb7c1",
+      "kind": "proposition",
+      "label": "Heat engine"
+    },
+    {
+      "id": "n_30f493583f6e",
+      "kind": "proposition",
+      "label": "Thermal efficiency"
+    },
+    {
+      "id": "n_96360c5089e8",
+      "kind": "proposition",
+      "label": "Kelvin–Planck statement"
+    },
+    {
+      "id": "n_88f3e68d52a4",
+      "kind": "proposition",
+      "label": "Clausius statement"
+    },
+    {
+      "id": "n_e725abacad3c",
+      "kind": "proposition",
+      "label": "Carnot engine"
+    },
+    {
+      "id": "n_ae06a05b0b24",
+      "kind": "proposition",
+      "label": "Carnot efficiency"
+    },
+    {
+      "id": "n_1ed12cd3697d",
+      "kind": "proposition",
+      "label": "Entropy"
+    },
+    {
+      "id": "n_d3a9c8c87c97",
+      "kind": "proposition",
+      "label": "Entropy of an isolated system"
+    },
+    {
+      "id": "n_17140710747d",
+      "kind": "proposition",
+      "label": "Reversible process"
+    },
+    {
+      "id": "n_087cfcb13fb6",
+      "kind": "proposition",
+      "label": "Zeroth law of thermodynamics"
+    },
+    {
+      "id": "n_2ecb5a3037b6",
+      "kind": "proposition",
+      "label": "Absolute temperature"
+    },
+    {
+      "id": "n_0fe94d9df002",
+      "kind": "proposition",
+      "label": "Thermal reservoir"
+    }
+  ],
+  "propositions": [
+    {
+      "id": "n_b16fd5621355",
+      "name": "Isothermal process",
+      "statement": "In an isothermal process the temperature stays constant, so an ideal gas has ΔU = 0 and all the heat absorbed is returned as work (Q = W).",
+      "aliases": [
+        "isothermal change"
+      ],
+      "provenance": [
+        {
+          "chatId": "chat_k3p9c5zr_2d80f6b3",
+          "messageId": "msg_pr_002"
+        }
+      ],
+      "createdAt": "2026-09-20T18:30:00.000Z"
+    },
+    {
+      "id": "n_c95d76921e15",
+      "name": "Adiabatic process",
+      "statement": "In an adiabatic process no heat is exchanged with the surroundings, so Q = 0 and ΔU = −W.",
+      "aliases": [],
+      "provenance": [
+        {
+          "chatId": "chat_k3p9c5zr_2d80f6b3",
+          "messageId": "msg_pr_010"
+        }
+      ],
+      "createdAt": "2026-09-20T18:31:00.000Z"
+    },
+    {
+      "id": "n_89577c5c8ac3",
+      "name": "First law of thermodynamics",
+      "statement": "The change in the internal energy of a closed system equals the heat added to it minus the work it does on its surroundings: ΔU = Q − W.",
+      "aliases": [
+        "energy conservation for heat and work"
+      ],
+      "provenance": [
+        {
+          "chatId": "chat_k3p8w2ud_7e1b44a0",
+          "messageId": "msg_th_022"
+        },
+        {
+          "chatId": "src_9e29eb12f09c",
+          "messageId": ""
+        }
+      ],
+      "createdAt": "2026-09-20T18:32:00.000Z"
+    },
+    {
+      "id": "n_8148e4222355",
+      "name": "Internal energy of an ideal gas",
+      "statement": "The internal energy of an ideal gas depends only on its temperature, not on its pressure or volume.",
+      "aliases": [
+        "U of an ideal gas"
+      ],
+      "provenance": [
+        {
+          "chatId": "chat_k3p8w2ud_7e1b44a0",
+          "messageId": "msg_th_002"
+        }
+      ],
+      "createdAt": "2026-09-20T18:33:00.000Z"
+    },
+    {
+      "id": "n_36c63f1f782a",
+      "name": "State function",
+      "statement": "A state function is a property whose value depends only on the current state of the system, not on the path taken to reach that state.",
+      "aliases": [],
+      "provenance": [
+        {
+          "chatId": "chat_k3p8w2ud_7e1b44a0",
+          "messageId": "msg_th_007"
+        }
+      ],
+      "createdAt": "2026-09-20T18:34:00.000Z"
+    },
+    {
+      "id": "n_0e034dc2a929",
+      "name": "Heat",
+      "statement": "Heat is energy transferred between two systems because of a temperature difference between them.",
+      "aliases": [],
+      "provenance": [
+        {
+          "chatId": "src_0c13c41466f1",
+          "messageId": ""
+        }
+      ],
+      "createdAt": "2026-09-20T18:35:00.000Z"
+    },
+    {
+      "id": "n_da8b044acdf0",
+      "name": "Work done by an expanding gas",
+      "statement": "When a gas expands by ΔV against a constant external pressure p, it does work W = pΔV on its surroundings.",
+      "aliases": [
+        "pV work"
+      ],
+      "provenance": [
+        {
+          "chatId": "chat_k3p8w2ud_7e1b44a0",
+          "messageId": "msg_th_029"
+        }
+      ],
+      "createdAt": "2026-09-20T18:36:00.000Z"
+    },
+    {
+      "id": "n_ee9b991aa35a",
+      "name": "Isobaric process",
+      "statement": "An isobaric process takes place at constant pressure, so the work done by the gas is W = pΔV and Q = ΔH.",
+      "aliases": [],
+      "provenance": [
+        {
+          "chatId": "src_0c13c41466f1",
+          "messageId": ""
+        }
+      ],
+      "createdAt": "2026-09-20T18:37:00.000Z"
+    },
+    {
+      "id": "n_1995a395bb8f",
+      "name": "Isochoric process",
+      "statement": "In an isochoric process the volume is constant, so no pV work is done and ΔU = Q.",
+      "aliases": [
+        "constant-volume process"
+      ],
+      "provenance": [
+        {
+          "chatId": "src_9e29eb12f09c",
+          "messageId": ""
+        }
+      ],
+      "createdAt": "2026-09-20T18:38:00.000Z"
+    },
+    {
+      "id": "n_1c9435a3bc50",
+      "name": "Molar heat capacity at constant volume",
+      "statement": "The molar heat capacity at constant volume, C_V, is the heat needed to raise the temperature of one mole by one kelvin without changing the volume.",
+      "aliases": [
+        "C_V"
+      ],
+      "provenance": [
+        {
+          "chatId": "src_0c13c41466f1",
+          "messageId": ""
+        }
+      ],
+      "createdAt": "2026-09-20T18:39:00.000Z"
+    },
+    {
+      "id": "n_6b95b1320aa7",
+      "name": "Mayer's relation",
+      "statement": "For an ideal gas the molar heat capacities at constant pressure and constant volume differ by the gas constant: C_p = C_V + R.",
+      "aliases": [
+        "C_p minus C_V"
+      ],
+      "provenance": [
+        {
+          "chatId": "src_9e29eb12f09c",
+          "messageId": ""
+        }
+      ],
+      "createdAt": "2026-09-20T18:40:00.000Z"
+    },
+    {
+      "id": "n_92895e233079",
+      "name": "Ideal gas law",
+      "statement": "An ideal gas obeys pV = nRT, relating pressure, volume, amount of substance and absolute temperature.",
+      "aliases": [
+        "equation of state of an ideal gas"
+      ],
+      "provenance": [
+        {
+          "chatId": "src_0c13c41466f1",
+          "messageId": ""
+        }
+      ],
+      "createdAt": "2026-09-20T18:41:00.000Z"
+    },
+    {
+      "id": "n_8604a76cb7c1",
+      "name": "Heat engine",
+      "statement": "A heat engine takes heat from a hot reservoir, converts part of it into work and rejects the remainder to a cold reservoir.",
+      "aliases": [],
+      "provenance": [
+        {
+          "chatId": "src_9e29eb12f09c",
+          "messageId": ""
+        }
+      ],
+      "createdAt": "2026-09-20T18:42:00.000Z"
+    },
+    {
+      "id": "n_30f493583f6e",
+      "name": "Thermal efficiency",
+      "statement": "The thermal efficiency of a heat engine is the work output divided by the heat absorbed from the hot reservoir: η = W/Q_h = 1 − Q_c/Q_h.",
+      "aliases": [
+        "engine efficiency"
+      ],
+      "provenance": [
+        {
+          "chatId": "src_0c13c41466f1",
+          "messageId": ""
+        }
+      ],
+      "createdAt": "2026-09-20T18:43:00.000Z"
+    },
+    {
+      "id": "n_96360c5089e8",
+      "name": "Kelvin–Planck statement",
+      "statement": "No device operating in a cycle can absorb heat from a single reservoir and convert all of it into work.",
+      "aliases": [],
+      "provenance": [
+        {
+          "chatId": "src_9e29eb12f09c",
+          "messageId": ""
+        }
+      ],
+      "createdAt": "2026-09-20T18:44:00.000Z"
+    },
+    {
+      "id": "n_88f3e68d52a4",
+      "name": "Clausius statement",
+      "statement": "Heat does not flow spontaneously from a colder body to a hotter body.",
+      "aliases": [],
+      "provenance": [
+        {
+          "chatId": "src_0c13c41466f1",
+          "messageId": ""
+        }
+      ],
+      "createdAt": "2026-09-20T18:45:00.000Z"
+    },
+    {
+      "id": "n_e725abacad3c",
+      "name": "Carnot engine",
+      "statement": "A Carnot engine is a reversible engine working between two reservoirs; no engine between the same reservoirs can be more efficient.",
+      "aliases": [],
+      "provenance": [
+        {
+          "chatId": "src_9e29eb12f09c",
+          "messageId": ""
+        }
+      ],
+      "createdAt": "2026-09-20T18:46:00.000Z"
+    },
+    {
+      "id": "n_ae06a05b0b24",
+      "name": "Carnot efficiency",
+      "statement": "The efficiency of a Carnot engine is η = 1 − T_c/T_h, with both temperatures measured on the kelvin scale.",
+      "aliases": [
+        "maximum efficiency"
+      ],
+      "provenance": [
+        {
+          "chatId": "src_0c13c41466f1",
+          "messageId": ""
+        }
+      ],
+      "createdAt": "2026-09-20T18:47:00.000Z"
+    },
+    {
+      "id": "n_1ed12cd3697d",
+      "name": "Entropy",
+      "statement": "For a reversible exchange of heat at temperature T, the entropy of a system changes by ΔS = Q_rev/T.",
+      "aliases": [],
+      "provenance": [
+        {
+          "chatId": "src_9e29eb12f09c",
+          "messageId": ""
+        }
+      ],
+      "createdAt": "2026-09-20T18:48:00.000Z"
+    },
+    {
+      "id": "n_d3a9c8c87c97",
+      "name": "Entropy of an isolated system",
+      "statement": "The entropy of an isolated system never decreases; it stays constant only for reversible processes.",
+      "aliases": [
+        "second law in terms of entropy"
+      ],
+      "provenance": [
+        {
+          "chatId": "src_0c13c41466f1",
+          "messageId": ""
+        }
+      ],
+      "createdAt": "2026-09-20T18:49:00.000Z"
+    },
+    {
+      "id": "n_17140710747d",
+      "name": "Reversible process",
+      "statement": "A reversible process is one that can be run backwards, restoring both the system and its surroundings, which requires it to proceed through equilibrium states.",
+      "aliases": [],
+      "provenance": [
+        {
+          "chatId": "src_9e29eb12f09c",
+          "messageId": ""
+        }
+      ],
+      "createdAt": "2026-09-20T18:50:00.000Z"
+    },
+    {
+      "id": "n_087cfcb13fb6",
+      "name": "Zeroth law of thermodynamics",
+      "statement": "If two systems are each in thermal equilibrium with a third, they are in thermal equilibrium with each other.",
+      "aliases": [],
+      "provenance": [
+        {
+          "chatId": "src_0c13c41466f1",
+          "messageId": ""
+        }
+      ],
+      "createdAt": "2026-09-20T18:51:00.000Z"
+    },
+    {
+      "id": "n_2ecb5a3037b6",
+      "name": "Absolute temperature",
+      "statement": "Absolute temperature is measured in kelvin, with absolute zero as the lowest possible temperature; it is the scale used in the ideal gas law.",
+      "aliases": [
+        "kelvin scale"
+      ],
+      "provenance": [
+        {
+          "chatId": "src_9e29eb12f09c",
+          "messageId": ""
+        }
+      ],
+      "createdAt": "2026-09-20T18:52:00.000Z"
+    },
+    {
+      "id": "n_0fe94d9df002",
+      "name": "Thermal reservoir",
+      "statement": "A thermal reservoir is a system so large that its temperature does not change when it exchanges heat.",
+      "aliases": [
+        "heat bath"
+      ],
+      "provenance": [
+        {
+          "chatId": "src_0c13c41466f1",
+          "messageId": ""
+        }
+      ],
+      "createdAt": "2026-09-20T18:53:00.000Z"
+    }
+  ],
+  "edges": [
+    {
+      "from": "n_89577c5c8ac3",
+      "to": "n_b16fd5621355",
+      "chainId": "arg_7690997880d0"
+    },
+    {
+      "from": "n_8148e4222355",
+      "to": "n_b16fd5621355",
+      "chainId": "arg_7690997880d0"
+    },
+    {
+      "from": "n_89577c5c8ac3",
+      "to": "n_c95d76921e15",
+      "chainId": "arg_b3a49638e224"
+    },
+    {
+      "from": "n_0e034dc2a929",
+      "to": "n_c95d76921e15",
+      "chainId": "arg_b3a49638e224"
+    },
+    {
+      "from": "n_89577c5c8ac3",
+      "to": "n_1995a395bb8f",
+      "chainId": "arg_85ae7e24041c"
+    },
+    {
+      "from": "n_da8b044acdf0",
+      "to": "n_1995a395bb8f",
+      "chainId": "arg_85ae7e24041c"
+    },
+    {
+      "from": "n_1c9435a3bc50",
+      "to": "n_6b95b1320aa7",
+      "chainId": "arg_f85fde65b870"
+    },
+    {
+      "from": "n_92895e233079",
+      "to": "n_6b95b1320aa7",
+      "chainId": "arg_f85fde65b870"
+    },
+    {
+      "from": "n_8148e4222355",
+      "to": "n_6b95b1320aa7",
+      "chainId": "arg_f85fde65b870"
+    },
+    {
+      "from": "n_8604a76cb7c1",
+      "to": "n_ae06a05b0b24",
+      "chainId": "arg_7c41fcf3e431"
+    },
+    {
+      "from": "n_30f493583f6e",
+      "to": "n_ae06a05b0b24",
+      "chainId": "arg_7c41fcf3e431"
+    },
+    {
+      "from": "n_e725abacad3c",
+      "to": "n_ae06a05b0b24",
+      "chainId": "arg_7c41fcf3e431"
+    },
+    {
+      "from": "n_0fe94d9df002",
+      "to": "n_ae06a05b0b24",
+      "chainId": "arg_7c41fcf3e431"
+    },
+    {
+      "from": "n_88f3e68d52a4",
+      "to": "n_96360c5089e8",
+      "chainId": "arg_969c5ecbdd69"
+    },
+    {
+      "from": "n_8604a76cb7c1",
+      "to": "n_96360c5089e8",
+      "chainId": "arg_969c5ecbdd69"
+    },
+    {
+      "from": "n_1ed12cd3697d",
+      "to": "n_d3a9c8c87c97",
+      "chainId": "arg_ab1882cd05e6"
+    },
+    {
+      "from": "n_88f3e68d52a4",
+      "to": "n_d3a9c8c87c97",
+      "chainId": "arg_ab1882cd05e6"
+    },
+    {
+      "from": "n_17140710747d",
+      "to": "n_d3a9c8c87c97",
+      "chainId": "arg_ab1882cd05e6"
+    },
+    {
+      "from": "n_087cfcb13fb6",
+      "to": "n_2ecb5a3037b6",
+      "chainId": "arg_513f0e689961"
+    },
+    {
+      "from": "n_92895e233079",
+      "to": "n_2ecb5a3037b6",
+      "chainId": "arg_513f0e689961"
+    },
+    {
+      "from": "n_89577c5c8ac3",
+      "to": "n_30f493583f6e",
+      "chainId": "arg_0e7521b767f8"
+    },
+    {
+      "from": "n_36c63f1f782a",
+      "to": "n_30f493583f6e",
+      "chainId": "arg_0e7521b767f8"
+    },
+    {
+      "from": "n_8604a76cb7c1",
+      "to": "n_30f493583f6e",
+      "chainId": "arg_0e7521b767f8"
+    },
+    {
+      "from": "n_0e034dc2a929",
+      "to": "n_087cfcb13fb6",
+      "chainId": "arg_064ba6083a8d"
+    },
+    {
+      "from": "n_0fe94d9df002",
+      "to": "n_087cfcb13fb6",
+      "chainId": "arg_064ba6083a8d"
+    },
+    {
+      "from": "n_88f3e68d52a4",
+      "to": "n_087cfcb13fb6",
+      "chainId": "arg_064ba6083a8d"
+    }
+  ],
+  "logicalEdges": [],
+  "impLinks": [],
+  "chains": [
+    {
+      "id": "arg_7690997880d0",
+      "premises": [
+        "n_89577c5c8ac3",
+        "n_8148e4222355"
+      ],
+      "conclusion": "n_b16fd5621355",
+      "provenance": [
+        {
+          "chatId": "src_9e29eb12f09c",
+          "messageId": ""
+        }
+      ],
+      "createdAt": "2026-09-20T19:00:00.000Z"
+    },
+    {
+      "id": "arg_b3a49638e224",
+      "premises": [
+        "n_89577c5c8ac3",
+        "n_0e034dc2a929"
+      ],
+      "conclusion": "n_c95d76921e15",
+      "provenance": [
+        {
+          "chatId": "src_0c13c41466f1",
+          "messageId": ""
+        }
+      ],
+      "createdAt": "2026-09-20T19:01:00.000Z"
+    },
+    {
+      "id": "arg_85ae7e24041c",
+      "premises": [
+        "n_89577c5c8ac3",
+        "n_da8b044acdf0"
+      ],
+      "conclusion": "n_1995a395bb8f",
+      "provenance": [
+        {
+          "chatId": "src_9e29eb12f09c",
+          "messageId": ""
+        }
+      ],
+      "createdAt": "2026-09-20T19:02:00.000Z"
+    },
+    {
+      "id": "arg_f85fde65b870",
+      "premises": [
+        "n_1c9435a3bc50",
+        "n_92895e233079",
+        "n_8148e4222355"
+      ],
+      "conclusion": "n_6b95b1320aa7",
+      "provenance": [
+        {
+          "chatId": "src_0c13c41466f1",
+          "messageId": ""
+        }
+      ],
+      "createdAt": "2026-09-20T19:03:00.000Z"
+    },
+    {
+      "id": "arg_7c41fcf3e431",
+      "premises": [
+        "n_8604a76cb7c1",
+        "n_30f493583f6e",
+        "n_e725abacad3c",
+        "n_0fe94d9df002"
+      ],
+      "conclusion": "n_ae06a05b0b24",
+      "provenance": [
+        {
+          "chatId": "src_9e29eb12f09c",
+          "messageId": ""
+        }
+      ],
+      "createdAt": "2026-09-20T19:04:00.000Z"
+    },
+    {
+      "id": "arg_969c5ecbdd69",
+      "premises": [
+        "n_88f3e68d52a4",
+        "n_8604a76cb7c1"
+      ],
+      "conclusion": "n_96360c5089e8",
+      "provenance": [
+        {
+          "chatId": "src_0c13c41466f1",
+          "messageId": ""
+        }
+      ],
+      "createdAt": "2026-09-20T19:05:00.000Z"
+    },
+    {
+      "id": "arg_ab1882cd05e6",
+      "premises": [
+        "n_1ed12cd3697d",
+        "n_88f3e68d52a4",
+        "n_17140710747d"
+      ],
+      "conclusion": "n_d3a9c8c87c97",
+      "provenance": [
+        {
+          "chatId": "src_9e29eb12f09c",
+          "messageId": ""
+        }
+      ],
+      "createdAt": "2026-09-20T19:06:00.000Z"
+    },
+    {
+      "id": "arg_513f0e689961",
+      "premises": [
+        "n_087cfcb13fb6",
+        "n_92895e233079"
+      ],
+      "conclusion": "n_2ecb5a3037b6",
+      "provenance": [
+        {
+          "chatId": "src_0c13c41466f1",
+          "messageId": ""
+        }
+      ],
+      "createdAt": "2026-09-20T19:07:00.000Z"
+    },
+    {
+      "id": "arg_0e7521b767f8",
+      "premises": [
+        "n_89577c5c8ac3",
+        "n_36c63f1f782a",
+        "n_8604a76cb7c1"
+      ],
+      "conclusion": "n_30f493583f6e",
+      "provenance": [
+        {
+          "chatId": "src_9e29eb12f09c",
+          "messageId": ""
+        }
+      ],
+      "createdAt": "2026-09-20T19:08:00.000Z"
+    },
+    {
+      "id": "arg_064ba6083a8d",
+      "premises": [
+        "n_0e034dc2a929",
+        "n_0fe94d9df002",
+        "n_88f3e68d52a4"
+      ],
+      "conclusion": "n_087cfcb13fb6",
+      "provenance": [
+        {
+          "chatId": "src_0c13c41466f1",
+          "messageId": ""
+        }
+      ],
+      "createdAt": "2026-09-20T19:09:00.000Z"
+    }
+  ],
+  "sessions": {
+    "chat_k3p8w2ud_7e1b44a0": "Thermodynamics: first law and heat engines",
+    "chat_k3p9c5zr_2d80f6b3": "Practice: ideal gas processes"
+  },
+  "fileSources": {
+    "src_9e29eb12f09c": "thermodynamics/ch3-first-law.md",
+    "src_0c13c41466f1": "thermodynamics/problem-set-1.pdf"
+  },
+  "nodeSessions": {
+    "n_89577c5c8ac3": [
+      "chat_k3p8w2ud_7e1b44a0"
+    ],
+    "n_b16fd5621355": [
+      "chat_k3p9c5zr_2d80f6b3"
+    ],
+    "n_c95d76921e15": [
+      "chat_k3p9c5zr_2d80f6b3"
+    ]
+  },
+  "clusters": [
+    {
+      "id": "cl_1",
+      "label": "Processes of an ideal gas",
+      "members": [
+        "n_b16fd5621355",
+        "n_c95d76921e15",
+        "n_89577c5c8ac3",
+        "n_8148e4222355"
+      ]
+    }
+  ],
+  "positions": {
+    "n_b16fd5621355": {
+      "x": 0,
+      "y": 0
+    },
+    "n_c95d76921e15": {
+      "x": 120,
+      "y": 0
+    },
+    "n_89577c5c8ac3": {
+      "x": 240,
+      "y": 0
+    },
+    "n_8148e4222355": {
+      "x": 360,
+      "y": 0
+    },
+    "n_36c63f1f782a": {
+      "x": 480,
+      "y": 0
+    },
+    "n_0e034dc2a929": {
+      "x": 600,
+      "y": 0
+    },
+    "n_da8b044acdf0": {
+      "x": 0,
+      "y": 90
+    },
+    "n_ee9b991aa35a": {
+      "x": 120,
+      "y": 90
+    },
+    "n_1995a395bb8f": {
+      "x": 240,
+      "y": 90
+    },
+    "n_1c9435a3bc50": {
+      "x": 360,
+      "y": 90
+    },
+    "n_6b95b1320aa7": {
+      "x": 480,
+      "y": 90
+    },
+    "n_92895e233079": {
+      "x": 600,
+      "y": 90
+    },
+    "n_8604a76cb7c1": {
+      "x": 0,
+      "y": 180
+    },
+    "n_30f493583f6e": {
+      "x": 120,
+      "y": 180
+    },
+    "n_96360c5089e8": {
+      "x": 240,
+      "y": 180
+    },
+    "n_88f3e68d52a4": {
+      "x": 360,
+      "y": 180
+    },
+    "n_e725abacad3c": {
+      "x": 480,
+      "y": 180
+    },
+    "n_ae06a05b0b24": {
+      "x": 600,
+      "y": 180
+    },
+    "n_1ed12cd3697d": {
+      "x": 0,
+      "y": 270
+    },
+    "n_d3a9c8c87c97": {
+      "x": 120,
+      "y": 270
+    },
+    "n_17140710747d": {
+      "x": 240,
+      "y": 270
+    },
+    "n_087cfcb13fb6": {
+      "x": 360,
+      "y": 270
+    },
+    "n_2ecb5a3037b6": {
+      "x": 480,
+      "y": 270
+    },
+    "n_0fe94d9df002": {
+      "x": 600,
+      "y": 270
+    }
+  }
+}

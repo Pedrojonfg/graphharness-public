@@ -1,0 +1,7 @@
+% family: axes
+\draw[->] (-0.8,0) -- (3.6,0) node[anchor=west] {$x$};
+\draw[->] (0,-0.5) -- (0,4.2) node[anchor=south] {$y$};
+\foreach \x in {1,2,3} \draw (\x,0.08) -- (\x,-0.08) node[below] {\small $\x$};
+\foreach \y in {1,2,3,4} \draw (0.08,\y) -- (-0.08,\y) node[left] {\small $\y$};
+\draw[domain=0:2.05, smooth, variable=\x, thick, blue] plot ({\x}, {\x*\x});
+\node[anchor=west, blue] at (2.1,4.3) {$y=x^2$};

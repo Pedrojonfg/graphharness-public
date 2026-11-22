@@ -1,0 +1,16 @@
+{
+  "name": "@graphharness/mcp-stdio",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "hub-mcp": "./src/bin.ts"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -p ."
+  }
+}
